@@ -1,0 +1,26 @@
+[
+  {
+    "min": 0,
+    "max": 12500,
+    "tax_percent": 0,
+    "label": "0% on earnings up to £12,500"
+  },
+  {
+    "min": 12500,
+    "max": 50000,
+    "tax_percent": 20,
+    "label": "20% on any earnings between £12,501 and £50,000"
+  },
+  {
+    "min": 50000,
+    "max": 150000,
+    "tax_percent": 40,
+    "label": "40% on any earnings between £50,001 and £150,000"
+  },
+  {
+    "min": 150000,
+    "max": 0,
+    "tax_percent": 45,
+    "label": "45% on earnings of £150,001 and over"
+  }
+]
